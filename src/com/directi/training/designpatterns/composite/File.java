@@ -12,11 +12,6 @@ public class File
         _size = size;
     }
 
-    public void setParent(Directory parent)
-    {
-        _parent = parent;
-    }
-
     public String getName()
     {
         return _name;
@@ -30,5 +25,10 @@ public class File
     public Directory getParent()
     {
         return _parent;
+    }
+
+    public void setParent(Directory parent)
+    {
+        _parent = parent;
     }
 }
